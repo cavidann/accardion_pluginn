@@ -1,0 +1,42 @@
+body {
+    margin: 0px;
+}
+
+.accordion {
+    margin-left: 25px;
+    margin-top: 25px;
+    width: 50%;
+}
+
+.accordion .item {
+    margin-bottom: 5px;
+}
+
+.accordion .head {
+    font-size: 16px;
+    line-height: 150%;
+    padding: 0.25rem 0.75rem;
+    color: #fff;
+    background: lightblue;
+
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    cursor: pointer;
+}
+
+.accordion .body {
+    background: #eee;
+    /*max-height: 0px;*/
+    display: none;
+    overflow: hidden;
+    
+}
+
+.fa-minus{
+     float: right;
+    display: none;
+}.fa-plus{
+    float: right;
+    display: inline-block;
+    
+}
